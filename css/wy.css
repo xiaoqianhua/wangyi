@@ -1,0 +1,849 @@
+/*空白块*/
+.blank{
+    display:block;
+    width:680px;
+    height:150px;
+    margin:0px auto;
+}
+/*main*/
+.main{
+    display:block;
+    width:680px;
+    height:400px;
+    margin:0px auto;
+    position:relative;
+    overflow:hidden;
+    /*background-color:yellow;*/
+}
+/*文字*/
+.text{
+    display:block;
+    width:680px;
+    height:56px;
+    line-height:56px;
+    font-size:24px;
+    overflow:hidden;
+}
+/*表单*/
+.form{
+    display:block;
+    width:680px;
+    height:344px;
+    border:1px solid #ccc;
+    position:absolute;
+    top:56px;
+    overflow:hidden;
+}
+/*左*/
+.left{
+    display:block;
+    width:220px;
+    height:344px;
+    float:left;
+    border-right:1px solid #ccc;
+    background:rgba(25,232,233,0.1);
+    overflow:hidden;
+    position:relative;
+}
+.left p{
+    display:block;
+    width:219px;
+    height:86px;
+    font-size:24px;
+    text-align:center;
+    line-height:86px;
+    border-bottom:1px solid #ccc;
+    position: relative;
+}
+.left p .lefts{
+    display:block;
+    width:20px;
+    height:20px;
+    color:#ccc;
+    position:absolute;
+    top:2px;
+    right: 0px;
+    font-size:40px;
+}
+
+
+
+
+
+
+
+/*163右*/
+.right{
+    display:block;
+    width:458px;
+    height:344px;
+    position: absolute;
+    left:220px;
+    float:right;
+    overflow:hidden;
+    box-shadow:2px 3px 5px #ccc;
+}
+.right-center{
+    display:block;
+    width:340px;
+    height:344px;
+    margin:0px auto;
+    overflow:hidden;
+    /*    background-color:pink;*/
+}
+/*登录邮箱*/
+.login-email{
+    display:block;
+    width:340px;
+    height:75px;
+    line-height:60px;
+    margin-left: 5px;
+    overflow:hidden;
+}
+.login-email span{
+    color:skyblue;
+}
+/*account账号输入*/
+.account{
+    display:block;
+    width:340px;
+    height:46px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    overflow:hidden;
+}
+.account input{
+    display:block;
+    width:250px;
+    height:44px;
+    line-height:46px;
+    float:left;
+    font-size:14px;
+    border-radius:3px;
+    background:rgba(72,177,238,0.3);
+}
+/*点击登录*/
+.click{
+    display:block;
+    width:88px;
+    height:44px;
+    line-height:46px;
+    font-size:14px;
+    float:right;
+    background:rgba(220,217,217,0.3);
+}
+/*密码输入*/
+.password{
+    display:block;
+    width:340px;
+    height:46px;
+    border:1px solid #ccc;
+    border-radius:3px;
+    margin-top:25px;
+    position:relative;
+    overflow:hidden;
+}
+.password input{
+    display:block;
+    width:250px;
+    height:44px;
+    line-height:46px;
+    float:left;
+    font-size:14px;
+    border-radius:3px;
+    background:rgba(72,177,238,0.3);;
+}
+/*登录按钮*/
+p.button input{
+    display:block;
+    width:85px;
+    height:40px;
+    line-height:40px;
+    font-size:18px;
+    float:right;
+    background:#48b1ee;
+    border-radius:3px;
+    position:absolute;
+    left:250px;
+    top:2px;
+    color:#fff;
+}
+/*多项选择*/
+.multiple{
+    display:block;
+    width:340px;
+    height:46px;
+    /*background-color:#48b1ee;*/
+    border-bottom:1px solid #ccc;
+    overflow:hidden;
+}
+.multiple p{
+    display:block;
+    width:95px;
+    height:44px;
+    float:left;  
+    line-height:44px;
+}
+/*忘记密码*/
+.forget{
+    display:block;
+    width:55px;
+    height:44px;
+    float:right;
+    line-height:44px;
+}
+/*邮箱版本*/
+.mailbox-version{
+    display:block;
+    width:340px;
+    height:29px;
+    overflow:hidden;
+}
+
+/*版本*/
+.version{
+    display:block;
+    width:124px;
+    height:29px;
+    float:left;
+}
+.version p{
+    display:block;
+    width:50px;
+    height:17px;
+    float:left;
+    padding-top: 2px;
+}
+.all{
+    display:block;
+    width:70px;
+    height:17px;
+    float:left;
+}
+.version select{
+    display:block;
+    float:left;
+    width:52px;
+    height:15px;
+    font-size:12px;
+    color:skyblue;
+}
+.down{
+    display:block;
+    width:16px;
+    height:16px;
+    color:skyblue;
+    float:right;
+    font-size: 19px;
+}
+/*注册*/
+.register{
+    display:block;
+    width:100px;
+    height:17px;
+    float:right;
+    color:#48b1ee;
+}
+.register p:hover{
+    color:#48b1ee;
+    text-decoration:underline;
+}
+/*主体右边底部*/
+.bottom{
+    display:block;
+    width:308px;
+    height:42px;
+    margin-top:15px;
+}
+.bottom-left{
+    display:block;
+    width:188px;
+    height:42px;
+    float:left;
+    background-color:#795da3;
+}
+.bottom-right{
+    display:block;
+    width:120px;
+    height:42px;
+    border-radius:3px;
+    border:1px solid #48b1ee;
+    float:right;
+    color:#48b1ee;
+    font-size:20px;
+    text-align:center;
+    line-height:42px;
+}
+
+
+
+
+
+
+
+
+/*126免费邮箱*/
+/*登录邮箱*/
+.right-center-two{
+    display:none;
+    width:340px;
+    height:344px;
+    margin:0px auto;
+    overflow:hidden;
+    /*    background-color:pink;*/
+}
+.login-email-126{
+    display:block;
+    width:340px;
+    height:75px;
+    line-height:60px;
+    margin-left: 5px;
+    overflow:hidden;
+}
+.login-email-126 span{
+    color:green;
+}
+/*account账号输入*/
+.account-126{
+    display:block;
+    width:340px;
+    height:46px;
+    border: 1px solid green;
+    border-radius:5px; 
+    overflow:hidden;
+}
+.account-126 input{
+    display:block;
+    width:250px;
+    height:44px;
+    line-height:46px;
+    float:left;
+    font-size:15px;
+    border-radius:3px;
+    background:green;
+    opacity:0.5;
+}
+/*点击登录*/
+.click-126{
+    display:block;
+    width:88px;
+    height:44px;
+    line-height:46px;
+    font-size:14px;
+    float:right;
+    background:#ccc;
+    opacity:0.5;
+    color:green;
+}
+/*密码输入*/
+.password-126{
+    display:block;
+    width:340px;
+    height:46px;
+    border: 1px solid green;
+    border-radius:3px;
+    margin-top:25px;
+    position:relative;
+    overflow:hidden;
+}
+.password-126 input{
+    display:block;
+    width:250px;
+    height:44px;
+    line-height:46px;
+    float:left;
+    font-size:14px;
+    border-radius:3px;
+    background:green;
+    opacity:0.5;
+}
+/*登录按钮*/
+p.button-126 input{
+    display:block;
+    width:85px;
+    height:40px;
+    line-height:40px;
+    font-size:18px;
+    float:right;
+    background:green;
+    opacity:0.5;
+    border-radius:3px;
+    position:absolute;
+    left:250px;
+    top:2px;
+    color:#fff;
+}
+/*多项选择*/
+.multiple-126{
+    display:block;
+    width:340px;
+    height:46px;
+    /*background-color:#48b1ee;*/
+    border-bottom:1px solid #ccc;
+    overflow:hidden;
+}
+.multiple-126 p{
+    display:block;
+    width:95px;
+    height:44px;
+    float:left;  
+    line-height:44px;
+    color:green;
+}
+/*忘记密码*/
+.forget{
+    display:block;
+    width:55px;
+    height:44px;
+    float:right;
+    line-height:44px;
+    color:green;
+}
+/*邮箱版本*/
+.mailbox-version-126{
+    display:block;
+    width:340px;
+    height:29px;
+    overflow:hidden;
+}
+/*版本*/
+.version-126{
+    display:block;
+    width:124px;
+    height:29px;
+    float:left;
+}
+.version-126 p{
+    display:block;
+    width:50px;
+    height:17px;
+    float:left;
+    padding-top: 2px;
+    color:green;
+}
+.version-126 p a :hover{
+    color:green;
+    text-decoration:underline;
+}
+.all{
+    display:block;
+    width:70px;
+    height:17px;
+    float:left;
+}
+.version-126 select{
+    display:block;
+    float:left;
+    width:52px;
+    height:15px;
+    font-size:12px;
+    color:green;
+}
+.version-126 select a:hover{
+    color:green;
+    text-decoration:underline; 
+}
+.down{
+    display:block;
+    width:16px;
+    height:16px;
+    color:green;
+    float:right;
+    font-size: 19px;
+}
+/*注册*/
+.register-126{
+    display:block;
+    width:100px;
+    height:17px;
+    float:right;
+    color:green;
+}
+.register-126 p:hover{
+    color:green;
+    text-decoration:underline;
+}
+/*主体右边底部*/
+.bottom-126{
+    display:block;
+    width:308px;
+    height:42px;
+    margin-top:15px;
+}
+.bottom-126-left{
+    display:block;
+    width:188px;
+    height:42px;
+    float:left;
+    background-color:#795da3;
+}
+.bottom-126-right{
+    display:block;
+    width:120px;
+    height:42px;
+    border-radius:3px;
+    border:1px solid #48b1ee;
+    float:right;
+    color:#48b1ee;
+    font-size:20px;
+    text-align:center;
+    line-height:42px;
+}
+
+
+
+
+
+/*yeah*/
+.right-center-three{
+    display:none;
+    width:340px;
+    height:344px;
+    margin:0px auto;
+    overflow:hidden;
+    /*    background-color:pink;*/
+}
+/*登录邮箱*/
+.login-email-yeah{
+    display:block;
+    width:340px;
+    height:75px;
+    line-height:60px;
+    margin-left: 5px;
+    overflow:hidden;
+}
+.login-email-yeah span{
+    color:skyblue;
+}
+/*account账号输入*/
+.account-yeah{
+    display:block;
+    width:340px;
+    height:46px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    overflow:hidden;
+}
+.account-yeah input{
+    display:block;
+    width:250px;
+    height:44px;
+    line-height:46px;
+    float:left;
+    font-size:14px;
+    border-radius:3px;
+    background:#ccc;
+    opacity:0.5;
+}
+/*点击登录*/
+.click-yeah{
+    display:block;
+    width:88px;
+    height:44px;
+    line-height:46px;
+    font-size:14px;
+    float:right;
+    background:rgba(220,217,217,0.3);
+}
+/*密码输入*/
+.password-yeah{
+    display:block;
+    width:340px;
+    height:46px;
+    border:1px solid #ccc;
+    border-radius:3px;
+    margin-top:25px;
+    position:relative;
+    overflow:hidden;
+}
+.password-yeah input{
+    display:block;
+    width:250px;
+    height:44px;
+    line-height:46px;
+    float:left;
+    font-size:14px;
+    border-radius:3px;
+    background:#ccc;
+    opacity:0.3;
+}
+/*登录按钮*/
+p.button-yeah input{
+    display:block;
+    width:85px;
+    height:40px;
+    line-height:40px;
+    font-size:18px;
+    float:right;
+    background:red;
+    border-radius:3px;
+    position:absolute;
+    left:250px;
+    top:2px;
+    color:#fff;
+}
+/*多项选择*/
+.multiple-yeah{
+    display:block;
+    width:340px;
+    height:46px;
+    /*background-color:#48b1ee;*/
+    border-bottom:1px solid #ccc;
+    overflow:hidden;
+}
+.multiple-yeah p{
+    display:block;
+    width:95px;
+    height:44px;
+    float:left;  
+    line-height:44px;
+}
+/*忘记密码*/
+.forget{
+    display:block;
+    width:55px;
+    height:44px;
+    float:right;
+    line-height:44px;
+}
+/*邮箱版本*/
+.mailbox-version-yeah{
+    display:block;
+    width:340px;
+    height:29px;
+    overflow:hidden;
+}
+
+/*版本*/
+.version-yeah{
+    display:block;
+    width:124px;
+    height:29px;
+    float:left;
+}
+.version-yeah p{
+    display:block;
+    width:50px;
+    height:17px;
+    float:left;
+    padding-top: 2px;
+}
+.all{
+    display:block;
+    width:70px;
+    height:17px;
+    float:left;
+}
+.version select{
+    display:block;
+    float:left;
+    width:52px;
+    height:15px;
+    font-size:12px;
+    color:skyblue;
+}
+.down{
+    display:block;
+    width:16px;
+    height:16px;
+    color:skyblue;
+    float:right;
+    font-size: 19px;
+}
+/*注册*/
+.register-yeah{
+    display:block;
+    width:100px;
+    height:17px;
+    float:right;
+    color:red;
+}
+.register-yeah p:hover{
+    color:red;
+    text-decoration:underline;
+}
+/*主体右边底部*/
+.bottom-yeah{
+    display:block;
+    width:308px;
+    height:42px;
+    margin-top:15px;
+}
+.bottom-yeah-left{
+    display:block;
+    width:188px;
+    height:42px;
+    float:left;
+    background-color:#795da3;
+}
+.bottom-yeah-right{
+    display:block;
+    width:120px;
+    height:42px;
+    border-radius:3px;
+    border:1px solid #48b1ee;
+    float:right;
+    color:#48b1ee;
+    font-size:20px;
+    text-align:center;
+    line-height:42px;
+}
+
+
+
+
+
+
+
+
+/*four*/
+.right-center-four{
+    display:none;
+    width:340px;
+    height:344px;
+    margin:0px auto;
+    overflow:hidden;
+    /*    background-color:pink;*/
+}
+.login-email-four{
+    display:block;
+    width:340px;
+    height:50px;
+    margin-top:20px;
+    margin-left: 5px;
+    overflow:hidden;
+}
+.login-email-four span{
+    color:skyblue;
+}
+/*account账号输入*/
+.account-four{
+    display:block;
+    width:340px;
+    height:46px;
+    border: 1px solid skyblue;
+    border-radius:5px; 
+    overflow:hidden;
+}
+.account-four input{
+    display: block;
+    width: 340px;
+    height: 44px;
+    line-height: 46px;
+    float: left;
+    font-size: 15px;
+    border-radius: 3px;
+    background: skyblue;
+    opacity: 0.5;
+}
+/*密码输入*/
+.password-four{
+    display:block;
+    width:340px;
+    height:46px;
+    border: 1px solid skyblue;
+    border-radius:3px;
+    margin-top:25px;
+    position:relative;
+    overflow:hidden;
+}
+.password-four input{
+    display:block;
+    width:250px;
+    height:44px;
+    line-height:46px;
+    float:left;
+    font-size:14px;
+    border-radius:3px;
+    background:skyblue;
+    opacity:0.5;
+}
+/*登录按钮*/
+p.button-four input{
+    display:block;
+    width:85px;
+    height:40px;
+    line-height:40px;
+    font-size:18px;
+    float:right;
+    background:blue;
+    opacity:0.5;
+    border-radius:3px;
+    position:absolute;
+    left:250px;
+    top:2px;
+    color:#fff;
+}
+/*多项选择*/
+.multiple-four{
+    display:block;
+    width:340px;
+    height:46px;
+    /*background-color:#48b1ee;*/
+    border-bottom:1px solid #ccc;
+    overflow:hidden;
+}
+.multiple-four p{
+    display:block;
+    width:95px;
+    height:44px;
+    float:left;  
+    line-height:44px;
+    color:skyblue;
+}
+/*忘记密码*/
+.forget{
+    display:block;
+    width:55px;
+    height:44px;
+    float:right;
+    line-height:44px;
+    color:skyblue;
+}
+/*邮箱版本*/
+.mailbox-version-four{
+    display:block;
+    width:340px;
+    height:29px;
+    overflow:hidden;
+}
+/*免费注册*/
+.free{
+    display:block;
+    width:340px;
+    height:27px;
+}
+.free span{
+    color:skyblue;
+}
+.free span a:hover{
+    color:skyblue;
+    text-decoration:underline;
+}
+/*主体右边底部*/
+.bottom-four{
+    display:block;
+    width:308px;
+    height:42px;
+    margin-top:15px;
+}
+.bottom-four-left{
+    display:block;
+    width:188px;
+    height:42px;
+    float:left;
+    background-color:#795da3;
+}
+.bottom-four-right{
+    display:block;
+    width:120px;
+    height:42px;
+    border-radius:3px;
+    border:1px solid #48b1ee;
+    float:right;
+    color:#48b1ee;
+    font-size:20px;
+    text-align:center;
+    line-height:42px;
+}
+
